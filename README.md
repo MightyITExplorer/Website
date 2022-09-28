@@ -74,7 +74,7 @@ Get in touch with Saurav on your favorite platform.
  <div align="center">
       
    <h1 align="center">Mighty IT Explorer</h1>
-      <img width="10%" align="center"   src="[https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png](https://avatars.githubusercontent.com/u/113420128?s=200&v=4)">
+      <img width="60%" align="center"   src="[https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png](https://avatars.githubusercontent.com/u/113420128?s=200&v=4)">
 	 
 	 
  
