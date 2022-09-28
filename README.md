@@ -47,8 +47,8 @@ Happy Submissions :slightly_smiling_face:
 <p align="center">
   
 	
-<a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SauravMukherjee44/CodeIN-Community-Website" />
+<a href="https://github.com/MightyITExplorer/Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MightyITExplorer/Website" />
 </a>
 </p>
 <h3 align="center"> Happy Coding 👨‍💻 </h3>
