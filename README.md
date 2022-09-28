@@ -95,6 +95,6 @@ To maintain a safe and inclusive space for everyone, to learn and grow, contribu
 <hr>
 	
 © 2022 Kaushik Lakhani and contributors\
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)<Pre>By Kaushik Lakhani</pre>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)By Kaushik Lakhani
 </body>
 </html>
