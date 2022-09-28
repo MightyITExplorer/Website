@@ -1,4 +1,3 @@
-# Website
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@
 
 <p align="center">
 <b><a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">
-<font size="67"> Be a part of our Community on Discord🚀</font>
+<font size="67"> Be a part of our Community</font>
 </a>
 </b>
 </p>
