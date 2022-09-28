@@ -90,10 +90,5 @@ Kaushik started a community named **Mighty IT Explorer [Everything for Free]** w
 To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and also go through [Guidelines for Contributing](./CONTRIBUTING.md) atleast once. -->
 	
 
-
-<hr>
-	
-© 2022 Kaushik Lakhani and contributors\
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)By Kaushik Lakhani
 </body>
 </html>
