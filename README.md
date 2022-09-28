@@ -85,9 +85,9 @@ Kaushik started a community named **Mighty IT Explorer [Everything for Free]** w
 <a  href="https://www.linkedin.com/company/mighty-it-explorer/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></span>
    
  </div>
-<h2 align="center"> Code of Conduct 📜</h2>
+<!-- <h2 align="center"> Code of Conduct 📜</h2>
 	
-To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and also go through [Guidelines for Contributing](./CONTRIBUTING.md) atleast once.
+To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and also go through [Guidelines for Contributing](./CONTRIBUTING.md) atleast once. -->
 	
 
 
