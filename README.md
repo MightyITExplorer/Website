@@ -13,13 +13,13 @@
 
 
 <p align="center">
-<b><a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">
+<b><a href="https://forms.gle/RATZgEtm9BA1pGfb6" target="_blank">
 <font size="67"> Be a part of our Community</font>
 </a>
 </b>
 </p>
 <h2 align="center">
-<a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
+<a href="[http://codeincommunity.tech/](https://mightyitexplorer.netlify.app/)" target="_blank">Visit Our Website💻</a>
 </h2>
 <h2 align="center"> Contribution is fun! 🧡</h2>
 
@@ -57,7 +57,6 @@ Happy Submissions :slightly_smiling_face:
 <h2 align="center">📬 Contact</h2>
 
 <p align="center">
-Get in touch with KKaushik on your favorite platform.
 </p>
 
 <div align="center">
