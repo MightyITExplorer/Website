@@ -47,8 +47,8 @@ Happy Submissions :slightly_smiling_face:
 <p align="center">
   
 	
-<a href="https://github.com/MightyITExplorer/Website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MightyITExplorer/Website" />
+<a href="https://github.com/MightyITExplorer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MightyITExplorer" />
 </a>
 </p>
 <h3 align="center"> Happy Coding 👨‍💻 </h3>
