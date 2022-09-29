@@ -19,7 +19,7 @@
 </b>
 </p>
 <h2 align="center">
-<a href="[http://codeincommunity.tech/](https://mightyitexplorer.netlify.app/)" target="_blank">Visit Our Website💻</a>
+<a href="https://mightyitexplorer.netlify.app/" target="_blank">Visit Our Website💻</a>
 </h2>
 <h2 align="center"> Contribution is fun! 🧡</h2>
 
