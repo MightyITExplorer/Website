@@ -46,8 +46,7 @@ Happy Submissions :slightly_smiling_face:
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
 <p align="center">
   
-	
-<a href="https://github.com/MightyITExplorer/Website/graphs/contributors">
+	<a href="https://github.com/MightyITExplorer/Website/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MightyITExplorer/Website" />
 </a>
 </p>
