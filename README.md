@@ -45,10 +45,11 @@ Happy Submissions :slightly_smiling_face:
 
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
 <p align="center">
-  
-	<a href="https://github.com/MightyITExplorer/Website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MightyITExplorer/Website" />
-</a>
+<a href="https://github.com/MightyITExplorer/Socials/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MightyITExplorer/Socials" />
+  <img src="https://contrib.rocks/image?repo=MightyITExplorer/.github" />
+  <img src="https://contrib.rocks/image?repo=shuklaji02/Portfolio_website" />
+</a
 </p>
 <h3 align="center"> Happy Coding 👨‍💻 </h3>
 
