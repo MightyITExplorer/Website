@@ -1718,7 +1718,7 @@ a.text-dark:hover, a.text-dark:focus {
   max-width: 260px;
   min-height: 270px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(100, 95, 136, 0.16);
+  box-shadow: 0 2px 6px #645f8829;
 }
 
 .card-blog .header {

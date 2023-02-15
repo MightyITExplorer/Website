@@ -172,7 +172,8 @@ const disableDarkMode=()=>{
   $(".navBars").css({"color":""})
 
 
-  $(".navbar-float").css({"box-shadow":"0 2px 6px rgba(100, 95, 136, 0.15)"})
+  $(".card-blog").css({"box-shadow":"0 2px 6px #645f8829"})
+  // $(".navbar-float").css({"box-shadow":"0 2px 6px #645f8829"})
 
   $("#dmBtn i").removeClass("fa-sun")
   $("#dmBtn i").addClass("fa-moon")
