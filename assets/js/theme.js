@@ -146,3 +146,55 @@ $(document).ready(function() {
 
   counterInit();
 });
+
+// darkmode
+let darkMode = localStorage.getItem('darkMode')
+
+const enableDarkMode=()=>{
+  $(":root").css({"--light":"black" , "--dark":"white" , "--headingColor":"white" , "--textColor":"#aba9bb" })
+  $("page-footer h5").css({"color":"white"})
+  $(".btn").css({"color":"white"})
+  $(".navBars").css({"color":"white"})
+  $(".navbar-float").css({"box-shadow":"0px 5px 10px #f5f5f540"})
+  $(".card-blog").css({"border":"2px solid grey"})
+  $(".card-blog").css({"box-shadow":"0px 2px 6px #f5f5f540"})
+
+  $("#dmBtn i").addClass("fa-sun")
+  $("#dmBtn i").removeClass("fa-moon")
+  
+  localStorage.setItem('darkMode',"enabled")
+}
+const disableDarkMode=()=>{
+  $(":root").css({"--light":"white" , "--dark":"black" , "--headingColor":"black" , "--textColor":"#898798" })
+  $("page-footer h5").css({"color":"white"})
+  $(".btn").css({"color":""})
+  $(".card-blog").css({"border":""})
+  $(".navBars").css({"color":""})
+
+
+  $(".card-blog").css({"box-shadow":"0 2px 6px #645f8829"})
+  // $(".navbar-float").css({"box-shadow":"0 2px 6px #645f8829"})
+
+  $("#dmBtn i").removeClass("fa-sun")
+  $("#dmBtn i").addClass("fa-moon")
+
+  localStorage.setItem('darkMode',null)
+}
+
+if(darkMode==="enabled"){
+  enableDarkMode()
+}
+else{
+  disableDarkMode()
+}
+
+$("#dmBtn").click(function() {
+  darkMode=localStorage.getItem("darkMode")
+  
+  if(darkMode!=="enabled"){
+    enableDarkMode();
+  }
+  else{
+    disableDarkMode()
+  }
+});
