@@ -35,6 +35,20 @@ body {
   color: var(--headingColor);
   background-color: var(--light);
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5641df; 
+}
 
 a {
   color: var(--highLightColor);
