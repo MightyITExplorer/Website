@@ -37,7 +37,7 @@
   <!-- <div class="back-to-top"></div> -->
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-float navbar-scrolled">
       <div class="container">
         <a href="html/index.html"></a><img src="assets/img/logo.png" width="65px" height="65px"></a>
 
@@ -361,6 +361,21 @@
     </div>
     </div> <!-- .container -->
   </footer> <!-- .page-footer -->
+
+  <script>
+
+    const navEL = document.querySelector('.navbar');
+    window.addEventListener('scroll',() => {
+      if (window.scrollY >=56){
+        navEL.classList.add('navbar-scrolled');  
+      } else if(window.scrollY<56){
+        navEL.classList.remove('navbar-scrolled');
+      }
+
+    });
+
+
+  </script>
 
   <script src="assets/js/splash.js"></script>
   <script src="assets/js/jquery-3.5.1.min.js"></script>

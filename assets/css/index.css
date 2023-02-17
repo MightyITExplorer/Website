@@ -5,3 +5,11 @@ main
 {
   background-color: black;
 }
+
+.navbar{
+  transition: all 0.5s;  
+}
+
+.navbar-scrolled{
+    background-color:rgb(52, 49, 49);
+}
