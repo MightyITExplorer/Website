@@ -1,0 +1,14 @@
+/* *{
+    color: rgb(205, 199, 199);
+} */
+
+#dmBtn{
+    width:33px;   
+}
+
+.btn-outline:hover{
+    border:none;
+    color: rgb(205, 199, 199);
+}
+
+
