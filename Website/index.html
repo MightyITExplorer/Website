@@ -11,7 +11,7 @@
 
   <title>Mighty IT Explorer</title>
   <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
   <link rel="stylesheet" href="assets/vendor/animate/animate.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/maicons.css">
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/css/splash.css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -37,9 +38,9 @@
   <!-- <div class="back-to-top"></div> -->
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-float navbar-scrolled">
+    <nav class="navbar navbar-expand-lg navbar-dark  navbar-float">
       <div class="container">
-        <a href="/index.html"><img id="imgg" src="assets/img/logo.png" width="65px" height="65px"></a>
+        <a href="html/index.html"></a><img src="assets/img/logo.png" width="65px" height="65px"></a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -68,11 +69,11 @@
 
           <div class="ml-auto">
             <button id="dmBtn"><i class="fa-solid"></i></button>
-            <a href="#" class="btn btn-danger rounded-pill">Subscribe Us</a>
+            <a href="https://forms.gle/gL7xSTK6UDshLWe66" class="btn btn-outline rounded-pill" target="_blank">Subscribe Us</a>
           </div>
         </div>
       </div>
-    </nav>
+    <!-- </nav> -->
         </div>
       </div>
     </nav>
@@ -361,22 +362,7 @@
     </div>
     </div> <!-- .container -->
   </footer> <!-- .page-footer -->
-
-  <script>
-
-    const navEL = document.querySelector('.navbar');
-    window.addEventListener('scroll',() => {
-      if (window.scrollY >=56){
-        navEL.classList.add('navbar-scrolled');  
-      } else if(window.scrollY<56){
-        navEL.classList.remove('navbar-scrolled');
-      }
-
-    });
-
-
-  </script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="assets/js/splash.js"></script>
   <script src="assets/js/jquery-3.5.1.min.js"></script>
 
