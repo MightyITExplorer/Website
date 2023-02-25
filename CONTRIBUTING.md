@@ -15,7 +15,8 @@ guidelines**. If you have any doubt about the contributing guide, please feel fr
 ## 🙌Contribution
 
 Any contribution is accepted, from fixing grammatical mistakes to implementing complex scripts. Please read this section if you are contributing your work.
-Create an issue of a feature you would like to add in the project and get the task assigned to you.Issue can be any bug fixes or any feature you want to add in this project.
+Create an issue of a feature you would like to add in the project and get the task assigned to you.
+**You should give a preview whenever you raise a PR** and **if you raise an issue you have to explain it well**
 
 ### 🔖Steps to Contribute
 
