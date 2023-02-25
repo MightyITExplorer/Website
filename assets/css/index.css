@@ -6,6 +6,7 @@ main
   background-color: black;
 }
 
+
 /* Styling for scroll to Top Button on the home page  */
 #myBtn{
   /* display: none; */
@@ -28,3 +29,12 @@ main
 #myBtn:hover{
   background-color: #555;
 }
+
+.navbar{
+  transition: all 0.5s;  
+}
+
+.navbar-scrolled{
+    background-color:rgb(52, 49, 49);
+}
+
