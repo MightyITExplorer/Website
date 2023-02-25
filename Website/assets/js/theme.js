@@ -155,7 +155,7 @@ const enableDarkMode=()=>{
   $("page-footer h5").css({"color":"white"})
   $(".btn").css({"color":"white"})
   $(".navBars").css({"color":"white"})
-  $(".navbar-float").css({"box-shadow":"0px 5px 10px #f5f5f540"})
+  // $(".navbar-float").css({"box-shadow":"0px 5px 10px #f5f5f540"})
   $(".card-blog").css({"border":"2px solid grey"})
   // $(".card-blog").css({"box-shadow":"0px 2px 6px #f5f5f540"})
 
@@ -164,14 +164,14 @@ const enableDarkMode=()=>{
   
   localStorage.setItem('darkMode',"enabled")
 }
+
 const disableDarkMode=()=>{
   $(":root").css({"--light":"white" , "--dark":"black" , "--headingColor":"black" , "--textColor":"#898798" })
   $("page-footer h5").css({"color":"white"})
   $(".btn").css({"color":""})
   $(".card-blog").css({"border":""})
   $(".navBars").css({"color":""})
-  $(".navbar").css({"background-color":"rgb(52 50 50 / 83%)"})
-  $(".btn-outline").css({"color":"rgb(160, 159, 159)"})
+
 
   $(".card-blog").css({"box-shadow":"0 2px 6px #645f8829"})
   // $(".navbar-float").css({"box-shadow":"0 2px 6px #645f8829"})
