@@ -151,17 +151,13 @@ $(document).ready(function() {
 let darkMode = localStorage.getItem('darkMode')
 
 const enableDarkMode=()=>{
-  $(":root").css({"--light":"black" , "--dark":"white" , "--headingColor":"white" , "--textColor":"#aba9bb" })
+  $(":root").css({"--light":"#232323" , "--dark":"white" , "--headingColor":"white" , "--textColor":"#aba9bb" })
   $("page-footer h5").css({"color":"white"})
   $(".btn").css({"color":"white"})
   $(".navBars").css({"color":"white"})
   $(".navbar-float").css({"box-shadow":"0px 5px 10px #f5f5f540"})
   $(".card-blog").css({"border":"2px solid grey"})
-  $(".card-blog").css({"box-shadow":"0px 2px 6px #f5f5f540"})
-  $(".card-blog").css({"box-shadow":"0 2px 6px #645f8829"})
-  $(".navbar").css({"background-color":"rgb(147 143 143 / 74%)", "box-shadow":"none"})
-  // $(".btn-outline").css({"color":"rgb(127, 126, 126)"})
-
+  // $(".card-blog").css({"box-shadow":"0px 2px 6px #f5f5f540"})
 
   $("#dmBtn i").addClass("fa-sun")
   $("#dmBtn i").removeClass("fa-moon")
