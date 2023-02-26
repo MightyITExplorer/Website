@@ -9,7 +9,7 @@ main
 
 /* Styling for scroll to Top Button on the home page  */
 #myBtn{
-  /* display: none; */
+  display: none; 
   position: fixed;
   right: 30px;
   bottom: 20px;
