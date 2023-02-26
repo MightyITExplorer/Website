@@ -287,18 +287,20 @@
             <h2 class="title-section">Drop Us a Line</h2>
             <div class="divider"></div>
 
+          <!-- --------contact_us form---------------- -->
             <form action="#">
               <div class="py-2">
-                <input type="text" class="form-control" placeholder="Full name">
+                <input type="text" id="fname" class="form-control" placeholder="Full name" oninput="checkname();" required>
               </div>
               <div class="py-2">
-                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" id="email" class="form-control" placeholder="Email" oninput="checkemail();" required>
               </div>
               <div class="py-2">
-                <textarea rows="6" class="form-control" placeholder="Enter message"></textarea>
+                <textarea rows="6" class="form-control" placeholder="Enter message" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
             </form>
+
           </div>
         </div>
       </div> <!-- .container -->
@@ -332,7 +334,7 @@
         <div class="col-lg-3 py-3">
           <h5>Subscribe</h5>
           <form action="#">
-            <input type="text" class="form-control" placeholder="Your Email ID">
+            <input type="text" id="email1" class="form-control" placeholder="Your Email ID" oninput="checkemail1();">
           </form>
 
           <div class="sosmed-button mt-4">
@@ -395,5 +397,47 @@
      crossorigin="anonymous"></script>
 
 </body>
+
+<script>  
+  function checkname(){
+    var name_in = document.querySelector("#fname")
+    
+    if(name_in.value.length>20)
+    {
+      
+      console.log("error")
+      name_in.setCustomValidity("Name is too long!")
+    }
+    else
+    {
+      name_in.setCustomValidity("")
+    }
+  }
+  function checkemail(){
+    var em = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    var email_in = document.querySelector("#email");
+    if(!(email_in.value.match(em)))
+    {
+      email_in.setCustomValidity("Email is invalid!");
+    }
+    else
+    {
+      email_in.setCustomValidity("");
+    }
+  }
+  function checkemail1(){
+    var em = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    var email_in = document.querySelector("#email1");
+    if(!(email_in.value.match(em)))
+    {
+      email_in.setCustomValidity("Email is invalid!");
+    }
+    else
+    {
+      email_in.setCustomValidity("");
+    }
+  }
+  
+</script>
 
 </html>
