@@ -158,7 +158,9 @@ const enableDarkMode=()=>{
   $(".navbar-float").css({"box-shadow":"0px 5px 10px #f5f5f540"})
   $(".card-blog").css({"border":"2px solid grey"})
   $(".card-blog").css({"box-shadow":"0px 2px 6px #f5f5f540"})
-
+  $(".card").css({"box-shadow":"0px 2px 10px #C6B9C6"})
+  
+ 
   $("#dmBtn i").addClass("fa-sun")
   $("#dmBtn i").removeClass("fa-moon")
   
