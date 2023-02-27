@@ -1977,8 +1977,8 @@ a.text-dark:hover, a.text-dark:focus {
 .page-footer {
   position: relative;
   display: block;
-  padding-top: 80px;
-  padding-bottom: 16px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   background-color: var(--light);
   border-top: 1px solid #e9e8f5;
 }

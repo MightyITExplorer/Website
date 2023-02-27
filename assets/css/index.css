@@ -6,6 +6,30 @@ main
   background-color: black;
 }
 
+
+/* Styling for scroll to Top Button on the home page  */
+#myBtn{
+  display: none; 
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--light);
+    background-color: var(--highLightColor);
+    border-color: transparent;
+    transition: all .2s ease;
+}
+
+#myBtn:hover{
+  background-color: #555;
+}
+
 .navbar{
   transition: all 0.5s;  
 }
@@ -13,3 +37,4 @@ main
 .navbar-scrolled{
     background-color:rgb(52, 49, 49);
 }
+
