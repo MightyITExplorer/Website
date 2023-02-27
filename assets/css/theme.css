@@ -1612,8 +1612,11 @@ a.text-dark:hover, a.text-dark:focus {
 .features {
   padding-top: 50px;
   padding-bottom: 50px;
-  border-top: 1px solid #e9e8f5;
-  border-bottom: 1px solid #e9e8f5;
+  border-top: 1px solid rgba(224, 224, 224, 0.6);
+  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: var(--light);
 }
 
 .features .container {
