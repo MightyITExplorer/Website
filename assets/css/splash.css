@@ -1,9 +1,18 @@
 .splashInitial {
-  padding-top: 15rem;
-  width: 18rem;
+  width: 11rem;
   opacity: 0;
-  animation: fadeContent 3s ease-in-out;
-  border-radius: 50%;
+  animation: fadeContent 3s ease-in-out forwards;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.whole{ 
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  background-color: rgb(213, 164, 251);
+  border: 15px rgb(213, 164, 251) solid;
+  animation: bord 2s ease forwards;
 }
 
 .preload {
@@ -13,14 +22,140 @@
   width: 100%;
   height: 100vh;
   position: fixed;
-  background-color: brown;
+
 }
+
 .splashName {
-  opacity: 0;
-  animation: fadeContent 3s ease-in-out;
   animation-delay: 0.5s;
-  font-size: 4rem;
+  font-size: 0.5rem;
+  animation: popup 2s ease-in-out forwards;
 }
+
+#logo{
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%,-50%);
+}
+
+#logo path:nth-child(2){
+  stroke-dasharray: 1463px;
+  stroke-dashoffset: 1463px;
+  animation: animate 2s ease forwards;
+}   
+
+#logo path:nth-child(3){
+  stroke-dasharray: 372px;
+  stroke-dashoffset: 372px;
+  animation: animate 2s ease forwards 0.1s;
+}
+
+#logo path:nth-child(4){
+  stroke-dasharray: 811px;
+  stroke-dashoffset: 811px;
+  animation: animate 2s ease forwards 0.2s;
+}
+
+#logo path:nth-child(5){
+  stroke-dasharray: 780px;
+  stroke-dashoffset: 780px;
+  animation: animate 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(6){
+  stroke-dasharray: 405px;
+  stroke-dashoffset: 405px;
+  animation: animate 2s ease forwards 0.4s;
+}
+#logo path:nth-child(7){
+  stroke-dasharray: 750px;
+  stroke-dashoffset: 750px;
+  animation: animate 2s ease forwards 0.5s;
+}
+
+
+
+
+#logo path:nth-child(8){
+  stroke-dasharray: 490px;
+  stroke-dashoffset: 490px;
+  animation: animate 2s ease forwards;
+}
+
+#logo path:nth-child(9){
+  stroke-dasharray: 810px;
+  stroke-dashoffset: 810px;
+  animation: animate 2s ease forwards 0.1s;
+}
+
+#logo path:nth-child(10){
+  stroke-dasharray: 882px;
+  stroke-dashoffset: 882px;
+  animation: animate 2s ease forwards 0.2s;
+}
+
+#logo path:nth-child(11){
+  stroke-dasharray: 519px;
+  stroke-dashoffset: 519px;
+  animation: animate 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(12){
+  stroke-dasharray: 726px;
+  stroke-dashoffset: 726px;
+  animation: animate 2s ease forwards 0.4s;
+}
+
+#logo path:nth-child(13){
+  stroke-dasharray: 420px;
+  stroke-dashoffset: 420px;
+  animation: animate 2s ease forwards 0.5s;
+}
+
+#logo path:nth-child(14){
+  stroke-dasharray: 519px;
+  stroke-dashoffset: 519px;
+  animation: animate 2s ease forwards 0.6;
+}
+
+#logo path:nth-child(15){
+  stroke-dasharray: 413px;
+  stroke-dashoffset: 413px;
+  animation: animate 2s ease forwards 0.6s;
+}
+
+#logo path:nth-child(16){
+  stroke-dasharray: 531px;
+  stroke-dashoffset: 531px;
+  animation: animate 2s ease forwards 0.7s;
+}
+
+#logo path:nth-child(17){
+  stroke-dasharray: 413px;
+  stroke-dashoffset: 413px;
+  animation: animate 2s ease forwards 0.8s;
+}
+
+@keyframes animate {
+  to{
+      stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes popup {
+  to{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+@keyframes bord {
+  to{
+    border-color: black;
+    background-color: rgb(177,164,251);
+  }
+}
+
 @keyframes fadePreload {
   0% {
     opacity: 1;

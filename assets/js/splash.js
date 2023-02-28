@@ -1,7 +1,9 @@
-setTimeout(function () {
+function goto() {
   $(".preload").remove();
   document.body.classList.toggle("main");
-}, 3000);
+}
+setTimeout('goto()', 3000);
+
 setTimeout(function () {
   $(".navbar").css("visibility", "visible");
-}, 3001);
+}, 1);
