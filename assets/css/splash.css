@@ -27,15 +27,19 @@
 
 .splashName {
   animation-delay: 0.5s;
-  font-size: 0.5rem;
-  animation: popup 2s ease-in-out forwards;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0;
+  animation: fadeContent 3s ease-in-out forwards;
 }
 
 #logo{
+  width: 10px;
   position: absolute;
   left: 50%;
   top: 65%;
   transform: translate(-50%,-50%);
+  animation: maintxt 2s ease-in-out forwards; 
 }
 
 #logo path:nth-child(2){
@@ -146,6 +150,12 @@
   to{
     font-size: 2rem;
     font-weight: 500;
+  }
+}
+
+@keyframes maintxt {
+  to{
+    width: 1000px;
   }
 }
 
