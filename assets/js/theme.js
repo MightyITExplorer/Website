@@ -155,7 +155,8 @@ const enableDarkMode=()=>{
   $("page-footer h5").css({"color":"white"})
   $(".btn").css({"color":"white"})
   $(".navBars").css({"color":"white"})
-  $(".navbar-float").css({"box-shadow":"0px 5px 10px #f5f5f540"})
+  $(".headerUp").css({"box-shadow":"0px 5px 10px #f5f5f540"})
+  $(".nav-item a").css({"color":"white"})
   $(".card-blog").css({"border":"2px solid grey"})
   $(".card-blog").css({"box-shadow":"0px 2px 6px #f5f5f540"})
   $(".card").css({"box-shadow":"0px 2px 10px #C6B9C6"})
@@ -172,7 +173,8 @@ const disableDarkMode=()=>{
   $(".btn").css({"color":""})
   $(".card-blog").css({"border":""})
   $(".navBars").css({"color":""})
-
+  $(".headerUp").css({"box-shadow":"0px 5px 10px #48464640"})
+  $(".nav-item a").css({"color":"black"})
 
   $(".card-blog").css({"box-shadow":"0 2px 6px #645f8829"})
   // $(".navbar-float").css({"box-shadow":"0 2px 6px #645f8829"})
