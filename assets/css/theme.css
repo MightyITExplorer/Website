@@ -47,7 +47,7 @@ body {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3924c4; 
+  background: #5641df; 
 }
 
 a {
@@ -88,31 +88,31 @@ a:hover {
 }
 
 a.bg-primary:hover, a.bg-primary:focus {
-  background-color: #240cc3 !important;
+  background-color: #5d47eb !important;
 }
 
 .bg-accent {
-  background-color: #e35086 !important;
+  background-color: #FF3D85 !important;
 }
 
 a.bg-accent:hover, a.bg-accent:focus {
-  background-color: #ae0d48 !important;
+  background-color: #e93577 !important;
 }
 
 .bg-secondary {
-  background-color: #bfbbdf !important;
+  background-color: #645F88 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus {
-  background-color: #655d97 !important;
+  background-color: #59547c !important;
 }
 
 .bg-success {
-  background-color: #07ab20 !important;
+  background-color: #35bb78 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus {
-  background-color: #95ef85 !important;
+  background-color: #28a868 !important;
 }
 
 .bg-info {
