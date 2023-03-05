@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report a Bug</title>
+  <link rel="stylesheet" href="report-bug.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Report a Bug</h1>
+    <form id="bug-report-form">
+      <label for="bug-description">Bug Description:</label>
+      <textarea id="bug-description" name="bug-description" placeholder="Describe the bug here..." required></textarea>
+      <label for="bug-severity">Severity:</label>
+      <select id="bug-severity" name="bug-severity" required>
+        <option value="" selected disabled>Please select</option>
+        <option value="minor">Minor</option>
+        <option value="moderate">Moderate</option>
+        <option value="major">Major</option>
+      </select>
+      <label for="bug-reporter">Reporter Name:</label>
+      <input type="text" id="bug-reporter" name="bug-reporter" placeholder="Your name..." required>
+      <input type="submit" value="Submit Report">
+    </form>
+
+    <div id="success-message" class="hidden">
+      <p>Thank you for reporting the bug!</p>
+    </div>
+
+    <div id="error-message" class="hidden">
+      <p>There was an error submitting your bug report. Please try again later.</p>
+    </div>
+  </div>
+
+  <script src="report-bug.js"></script>
+</body>
+</html>
