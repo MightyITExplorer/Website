@@ -1,18 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .main {
   overflow: hidden;
-}
-main
-{
-  /* background-color: black; */
 }
 
 
 /* Styling for scroll to Top Button on the home page  */
 #myBtn{
   display: none; 
-  position: fixed;
+  position: fixed; 
   right: 30px;
-  bottom: 20px;
+  bottom: 20px; 
   z-index: 99;
   border: none;
   outline: none;
@@ -30,11 +32,125 @@ main
   background-color: #555;
 }
 
-.navbar{
-  transition: all 0.5s;  
+.headerUp{
+  padding: 0 3rem;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 10px #48464640 !important;
+  z-index: 999;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-scrolled{
-    background-color:rgb(52, 49, 49);
+.navbar-opt{
+  transition: all 0.5s; 
 }
 
+.navbar-list{
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.fixed-buttons{
+  display: flex;
+}
+
+.active{
+  color: blueviolet !important;
+  font-weight: 700 !important;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.mobile-menu{
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menu-icon{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.menu-icon[name="close-outline"]{
+  display: none;
+}
+
+@media (max-width:1220px){
+  .navbar-list{
+    gap: 0.3rem;
+  }
+}
+
+@media (max-width:1000px){
+  .mobile-menu{
+    display: block;
+  }
+
+  .headerUp{
+    padding: 0 1rem;
+    position: relative;
+  }
+
+  .navbar-opt{
+    width: 100vw;
+    height: 1500vh;
+    background-color: #484646dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    /* transform: translateY(100%); */
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .navbar-list{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 7rem;
+    font-weight: 500;
+  }
+
+  .nav-item a{
+    color: white !important;
+  }
+
+  .nav-item a.active{
+    color: blueviolet !important;
+  }
+
+  .switchOn .navbar-opt{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .switchOn .mobile-menu .menu-icon[name="close-outline"]{
+    display: block;
+  }
+
+  .switchOn .mobile-menu .menu-icon[name="menu-outline"]{
+    display: none;
+  }
+
+}
+
+.nav-link:hover{
+  color: grey !important;
+}
