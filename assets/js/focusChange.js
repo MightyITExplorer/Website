@@ -11,3 +11,12 @@ window.onload = function () {
     }
   });
 };
+
+const mobile_nav= document.querySelector('.mobile-menu');
+const nav_header= document.querySelector(".headerUp");
+
+const toggleNav = () =>{
+  nav_header.classList.toggle("switchOn");
+}
+
+mobile_nav.addEventListener('click', () => toggleNav());

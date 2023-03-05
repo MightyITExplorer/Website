@@ -22,7 +22,7 @@
   width: 100%;
   height: 100vh;
   position: fixed;
-
+  background-color: rgb(215, 43, 43);
 }
 
 .splashName {
@@ -182,6 +182,6 @@
     opacity: 1;
   }
 }
-.navbar {
+/* .navbar {
   visibility: hidden;
-}
+} */

@@ -19,6 +19,8 @@
 
   <link rel="stylesheet" href="assets/css/maicons.css">
 
+  <link rel="stylesheet" href="assets/css/index.css">
+
   <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.css">
 
   <link rel="stylesheet" href="assets/css/theme.css">
@@ -36,43 +38,46 @@
   <!-- Back to top button -->
   <div class="back-to-top"></div>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-float">
-      <div class="container">
-        <a href="../index.html"><img src="assets/img/logo.png" width="65px" height="65px"></a>
+  <!----------------Navbar--------------------------------------------------->
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <section class="headerUp">
+    <a href="/index.html"><img id="imgg" src="assets/img/logo.png" width="65px" height="65px" /></a>
 
-        <div class="navbar-collapse collapse" id="navbarContent">
-          <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link ">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="opportunity.html" class="nav-link">Opportunity</a>
-            </li>
-            <li class="nav-item">
-              <a href="studymaterial.html" class="nav-link">Study Materials</a>
-            </li>
-            <li class="nav-item">
-              <a href="news.html" class="nav-link active">Tech Updates</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://mightyitexplorer.github.io/Socials/" target="_blank" class="nav-link">Follow Us</a>
-            </li>
-          </ul>
+    <div class="navbar-opt">
+      <ul class="navbar-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a href="opportunity.html" class="nav-link">Opportunity</a>
+        </li>
+        <li class="nav-item">
+          <a href="studymaterial.html" class="nav-link">Study Materials</a>
+        </li>
+        <li class="nav-item">
+          <a href="news.html" class="nav-link active">Tech Updates</a>
+        </li>
+        <li class="nav-item">
+          <a href="../testimonial.html" class="nav-link">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://mightyitexplorer.github.io/Socials/" target="_blank" class="nav-link">Follow Us</a>
+        </li>
+      </ul>
+    </div>
 
-          <div class="ml-auto">
-            <button id="dmBtn"><i class="fa-solid"></i></button>
-            <a href="#" class="btn btn-outline rounded-pill">Subscribe Us</a>
-          </div>
-        </div>
+    <div class="fixed-buttons">
+      <div class="px-3">
+        <a href="https://forms.gle/gL7xSTK6UDshLWe66" class="btn btn-outline rounded-pill">Subscribe Us</a>
       </div>
-    </nav>
-  </header>
+      <button id="dmBtn"><i class="fa-solid"></i></button>
+    </div>
+
+    <div class="mobile-menu">
+      <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+      <ion-icon name="close-outline" class="menu-icon"></ion-icon>
+    </div>
+  </section>
 
   <main>
     <div class="page-section">
@@ -310,6 +315,8 @@
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/focusChange.js"></script>
 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
