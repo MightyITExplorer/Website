@@ -103,7 +103,7 @@
 
   .navbar-opt{
     width: 100vw;
-    height: 100vh;
+    height: 1500vh;
     background-color: #484646dd;
     position: absolute;
     top: 0;
@@ -122,7 +122,17 @@
     align-items: center;
     justify-content: center;
     font-size: 1.7rem;
+    position: absolute;
+    top: 7rem;
     font-weight: 500;
+  }
+
+  .nav-item a{
+    color: white !important;
+  }
+
+  .nav-item a.active{
+    color: blueviolet !important;
   }
 
   .switchOn .navbar-opt{
