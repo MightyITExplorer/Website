@@ -634,6 +634,13 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+.col .card:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 1ms all linear;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .col {
   -ms-flex-preferred-size: 0;
