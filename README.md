@@ -88,7 +88,11 @@ Kaushik started a community named **Mighty IT Explorer [Everything for Free]** w
 	
 To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and also go through [Guidelines for Contributing](./CONTRIBUTING.md) atleast once. -->
 	
-
+---
+<div align="center">
+    <h3>Don't forget to ⭐ this repo</h3>
+    <h5>Building with the COMMUNITY for the COMMUNITY ❤️</h5>
+</div>
 
 </body>
 </html>
