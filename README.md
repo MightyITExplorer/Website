@@ -89,7 +89,7 @@ Happy Submissions :slightly_smiling_face:
 	 
 	 
  
-Kaushik started a community named **Mighty IT Explorer [Everything for Free]** where everyone around the world is encouraged to utilise **Resources**, **Roadmaps** to learn different technologies and, learn and share opportunities related to different **Tech Programmes**. Also, Mighty IT Explorers organizes **Events** about different technologies to help people to get started in the field of their choice. 
+Kaushik started a community named **Mighty IT Explorer `[Everything for Free]`** where everyone around the world is encouraged to utilise **Resources**, **Roadmaps** to learn different technologies and, learn and share opportunities related to different **Tech Programmes**. Also, Mighty IT Explorers organizes **Events** about different technologies to help people to get started in the field of their choice. 
 
   <span> <h2>Join the Community on Telegram and Other Platforms!⚡</h2>
 <a  href="https://t.me/ITexplorers"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
