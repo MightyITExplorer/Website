@@ -1741,17 +1741,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-blog {
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 30px 30px 30px;
   margin: 0 auto;
-  padding: 32px 20px 70px 20px;
-  max-width: 260px;
   min-height: 270px;
   border-radius: 10px;
   box-shadow: 0 2px 6px #645f8829;
-}
-
-.card-blog .header {
-  margin-bottom: 16px;
 }
 
 .card-blog .avatar {
@@ -1773,6 +1770,8 @@ a.text-dark:hover, a.text-dark:focus {
 .card-blog .entry-footer {
   display: inline-block;
   vertical-align: top;
+  flex-grow: 1;
+  width: min-content;
 }
 
 .card-blog .post-author {
@@ -1798,12 +1797,6 @@ a.text-dark:hover, a.text-dark:focus {
 .card-blog .post-excerpt {
   font-size: 14px;
   color: var(--textColor);
-}
-
-.card-blog .footer {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
 }
 
 /*custom styled made cards more interactive  */
@@ -1842,7 +1835,8 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
   border-bottom: 1px solid #eee;
 }
 
@@ -1865,7 +1859,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-blog .body {
-  padding: 20px;
+ height: -webkit-fill-available;
 }
 
 .card-blog .post-title {
@@ -1875,7 +1869,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-blog .footer {
-  padding: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
   border-top: 1px solid #eee;
 }
 
