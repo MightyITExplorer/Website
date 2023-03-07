@@ -53,6 +53,10 @@ body{
     background-color: #fff;
    border:2px solid #6C55F9;
 }
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.7);
+}
 
 .image-content,
 .card-content{
