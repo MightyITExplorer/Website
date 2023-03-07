@@ -14,21 +14,33 @@
 
 <p align="center">
 <b><a href="https://forms.gle/RATZgEtm9BA1pGfb6" target="_blank">
-<font size="67"> Be a part of our Community</font>
+<font size="67"> Be a part of our Amazing Community! 🧑‍🤝‍🧑 </font>
 </a>
 </b>
+	
 </p>
 <h2 align="center">
 <a href="https://mightyitexplorer.netlify.app/" target="_blank">Visit Our Website💻</a>
 </h2>
 <h2 align="center"> Contribution is fun! 🧡</h2>
 
-<h2 align="center"> 📌 Tech Stack </h2>
+<h2 align="left"> 📌 Tech Stack </h2>
 <div align="center">
 <img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 <img alt="JS" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-	</div>
+</div>
+
+<h2 align="left"> 📌 Project  </h2>
+<div align="center">
+
+
+https://user-images.githubusercontent.com/110724849/223139658-ef2a9eb8-9b05-438f-8abe-856674393566.mp4
+
+
+</div>
+	
+---
 
 In order to make a hassle-free environment, we implore you all (_while contributing_) to follow the instructions mentioned below!
 
@@ -54,7 +66,7 @@ Happy Submissions :slightly_smiling_face:
 <h3 align="center"> Happy Coding 👨‍💻 </h3>
 
 
-<h2 align="center">📬 Contact</h2>
+<h2 align="center">📬 Contact Us</h2>
 
 <p align="center">
 </p>
@@ -77,13 +89,22 @@ Happy Submissions :slightly_smiling_face:
 	 
 	 
  
-Kaushik started a community named **Mighty IT Explorer [Everything for Free]** where everyone around the world is encouraged to utilise **Resources**, **Roadmaps** to learn different technologies and, learn and share opportunities related to different **Tech Programmes**. Also, Mighty IT Explorers organizes **Events** about different technologies to help people to get started in the field of their choice. 
+Kaushik started a community named **Mighty IT Explorer `[Everything for Free]`** where everyone around the world is encouraged to utilise **Resources**, **Roadmaps** to learn different technologies and, learn and share opportunities related to different **Tech Programmes**. Also, Mighty IT Explorers organizes **Events** about different technologies to help people to get started in the field of their choice. 
 
   <span> <h2>Join the Community on Telegram and Other Platforms!⚡</h2>
 <a  href="https://t.me/ITexplorers"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
-<a  href="https://www.linkedin.com/company/mighty-it-explorer/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></span>
+<a  href="https://www.linkedin.com/company/mighty-it-explorer/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a  href="https://www.youtube.com/channel/UCo7Jhf7YKHxcuy5wazm-xfg" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
+<a href="https://twitter.com/ExplorerMighty" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
+<a href="mailto:mightyitexplorer@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</span>
    
  </div>
+
+<div align="center">
+    <h3>Don't forget to ⭐ this repo</h3>
+    <h5>Building with the COMMUNITY for the COMMUNITY ❤️</h5>
+</div>
 <!-- <h2 align="center"> Code of Conduct .📜</h2>
 	
 To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and also go through [Guidelines for Contributing](./CONTRIBUTING.md) atleast once. -->
