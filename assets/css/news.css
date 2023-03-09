@@ -1,3 +1,19 @@
 .card-blog {
   height: 100%;
 }
+.nav-pills .nav-item .active {
+  border-bottom: 2px solid var(--primary);
+  margin-bottom:2rem;
+}
+
+.job-item {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.job-item:hover {
+  border-color: rgba(0, 0, 0, .08);
+  box-shadow: none;
+}
